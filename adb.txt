@@ -1,0 +1,6 @@
+adb devices - list of devices
+adb -e - emulator
+adb -d - usb device
+adb -s <serial number> - directs command to the USB device or emulator
+adb -e shell getprop ro.product.model - emul name
+adb -e install - adb install c:/adb/app/autostarts.apk
